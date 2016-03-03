@@ -3,7 +3,7 @@ defmodule Chat.Server do
 
   # API
 
-  def start_link do
+  def start_link(name) do
     GenServer.start_link(__MODULE__, [], name: :chat_room)
   end
 
