@@ -1,20 +1,4 @@
-# Chat
+# Example app
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add chat to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:chat, "~> 0.0.1"}]
-        end
-
-  2. Ensure chat is started before your application:
-
-        def application do
-          [applications: [:chat]]
-        end
-
+This is an example application created to demonstrate how process registry works in Elixir. You can find the blog post [here](http://www.brianstorti.com/process-registry-in-elixir/).  
+Feedback, as always, is very welcomed.
